@@ -1,0 +1,33 @@
+.container{
+    height: auto;
+}
+.headline{
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    padding: 15px 0px;
+    border-bottom: 4px var(--secondary-color) dotted;
+    display: inline-block;
+    margin: 45px;
+
+}
+.my_input{
+    font-family: inherit;
+    font-size: 24px;
+    border: none;
+    border-bottom: 1px solid #c4c0c0;
+    padding: 25px 0px;
+    border-radius: 0%;
+
+}
+input:focus{
+    border: none !important;
+    border-bottom: 1px solid #c4c0c0 !important;
+    box-shadow: none !important;
+    border-radius: 0%;
+}
+textarea:focus{
+    box-shadow: none !important;
+    border-bottom: 1px solid #c4c0c0 !important;
+}

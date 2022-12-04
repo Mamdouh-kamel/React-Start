@@ -1,0 +1,20 @@
+.container{
+    height: 85vh;
+    background-color: var(--primary-color);
+}
+.headline{
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 15px 0px;
+    border-bottom: 4px #fff dotted;
+    display: inline-block;
+    margin: 45px;
+
+}
+.text{
+    color: #fff;
+    font-size: 18px;
+    opacity: 0.9;
+}

@@ -1,0 +1,17 @@
+.home{
+    height: 120vh;
+    padding:190px 0px;
+}
+.headline{
+    font-size: 4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 15px 0px;
+    border-bottom: 4px #fff dotted;
+    display: inline-block;
+}
+.text{
+    font-size: 1.25rem;
+    font-weight: 500;
+}

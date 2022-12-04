@@ -1,0 +1,42 @@
+.headline{
+    width: auto;
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 15px 0px;
+    color: var(--secondary-color);
+    border-bottom: 4px dotted #2C3E50 ;
+    display: inline-block;
+}
+.layer{
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 20px 5px;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(151, 8, 8, 0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.5s all ease;
+}
+.layer:hover .overlay{
+    opacity: 1;
+}
+
+.overlay svg{
+    width: 50px;
+    color: #fff;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}

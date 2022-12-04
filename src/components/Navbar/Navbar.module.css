@@ -1,0 +1,27 @@
+
+.fixed_top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9990;
+    background-color: var(--secondary-color);
+}
+
+.hvr{
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 15px 25px !important;
+    color: white;
+}
+.hvr:hover{
+    color: var(--primary-color);
+}
+.button{
+    padding: 12px 12px;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: var(--primary-color) !important; 
+    text-transform: uppercase;
+    color: #fff;
+}
